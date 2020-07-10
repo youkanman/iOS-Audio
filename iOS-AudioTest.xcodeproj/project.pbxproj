@@ -16,7 +16,6 @@
 		4DAB2D0324B5A146003B79DE /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAB2D0224B5A146003B79DE /* AudioKit.framework */; };
 		4DAB2D0824B5A3F4003B79DE /* output01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4DAB2D0424B5A3F4003B79DE /* output01.wav */; };
 		4DAB2D0924B5A3F4003B79DE /* output02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4DAB2D0524B5A3F4003B79DE /* output02.wav */; };
-		4DAB2D0A24B5A3F4003B79DE /* output00.bin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4DAB2D0624B5A3F4003B79DE /* output00.bin.wav */; };
 		4DAB2D0B24B5A3F4003B79DE /* output00.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4DAB2D0724B5A3F4003B79DE /* output00.wav */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		4DAB2D0224B5A146003B79DE /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioKit.framework; sourceTree = "<group>"; };
 		4DAB2D0424B5A3F4003B79DE /* output01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = output01.wav; sourceTree = "<group>"; };
 		4DAB2D0524B5A3F4003B79DE /* output02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = output02.wav; sourceTree = "<group>"; };
-		4DAB2D0624B5A3F4003B79DE /* output00.bin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = output00.bin.wav; sourceTree = "<group>"; };
 		4DAB2D0724B5A3F4003B79DE /* output00.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = output00.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,7 +66,6 @@
 		4DAB2CEC24B589E7003B79DE /* iOS-AudioTest */ = {
 			isa = PBXGroup;
 			children = (
-				4DAB2D0624B5A3F4003B79DE /* output00.bin.wav */,
 				4DAB2D0724B5A3F4003B79DE /* output00.wav */,
 				4DAB2D0424B5A3F4003B79DE /* output01.wav */,
 				4DAB2D0524B5A3F4003B79DE /* output02.wav */,
@@ -149,7 +146,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DAB2D0A24B5A3F4003B79DE /* output00.bin.wav in Resources */,
 				4DAB2CFA24B589EB003B79DE /* LaunchScreen.storyboard in Resources */,
 				4DAB2CF724B589EB003B79DE /* Assets.xcassets in Resources */,
 				4DAB2D0B24B5A3F4003B79DE /* output00.wav in Resources */,
