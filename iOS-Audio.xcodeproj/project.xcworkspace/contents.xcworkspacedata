@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:iOS-AudioTest.xcodeproj">
+      location = "self:/Users/youyou/Desktop/projects/iOS/iOS-AudioTest/iOS-Audio.xcodeproj">
    </FileRef>
 </Workspace>

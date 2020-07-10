@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D289DDE24B83DEE00634CEA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D289DDD24B83DEE00634CEA /* Default-568h@2x.png */; };
 		4DAB2CEE24B589E7003B79DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB2CED24B589E7003B79DE /* AppDelegate.swift */; };
 		4DAB2CF024B589E7003B79DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB2CEF24B589E7003B79DE /* SceneDelegate.swift */; };
 		4DAB2CF224B589E7003B79DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB2CF124B589E7003B79DE /* ViewController.swift */; };
@@ -20,7 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4DAB2CEA24B589E7003B79DE /* iOS-AudioTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-AudioTest.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D289DDD24B83DEE00634CEA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4DAB2CEA24B589E7003B79DE /* iOS-Audio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Audio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DAB2CED24B589E7003B79DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DAB2CEF24B589E7003B79DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4DAB2CF124B589E7003B79DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,8 +51,9 @@
 		4DAB2CE124B589E7003B79DE = {
 			isa = PBXGroup;
 			children = (
+				4D289DDD24B83DEE00634CEA /* Default-568h@2x.png */,
 				4DAB2D0124B5A013003B79DE /* Frameworks */,
-				4DAB2CEC24B589E7003B79DE /* iOS-AudioTest */,
+				4DAB2CEC24B589E7003B79DE /* iOS-Audio */,
 				4DAB2CEB24B589E7003B79DE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,12 +61,12 @@
 		4DAB2CEB24B589E7003B79DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4DAB2CEA24B589E7003B79DE /* iOS-AudioTest.app */,
+				4DAB2CEA24B589E7003B79DE /* iOS-Audio.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4DAB2CEC24B589E7003B79DE /* iOS-AudioTest */ = {
+		4DAB2CEC24B589E7003B79DE /* iOS-Audio */ = {
 			isa = PBXGroup;
 			children = (
 				4DAB2D0724B5A3F4003B79DE /* output00.wav */,
@@ -77,7 +80,7 @@
 				4DAB2CF824B589EB003B79DE /* LaunchScreen.storyboard */,
 				4DAB2CFB24B589EB003B79DE /* Info.plist */,
 			);
-			path = "iOS-AudioTest";
+			path = "iOS-Audio";
 			sourceTree = "<group>";
 		};
 		4DAB2D0124B5A013003B79DE /* Frameworks */ = {
@@ -91,9 +94,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4DAB2CE924B589E7003B79DE /* iOS-AudioTest */ = {
+		4DAB2CE924B589E7003B79DE /* iOS-Audio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4DAB2CFE24B589EB003B79DE /* Build configuration list for PBXNativeTarget "iOS-AudioTest" */;
+			buildConfigurationList = 4DAB2CFE24B589EB003B79DE /* Build configuration list for PBXNativeTarget "iOS-Audio" */;
 			buildPhases = (
 				4DAB2CE624B589E7003B79DE /* Sources */,
 				4DAB2CE724B589E7003B79DE /* Frameworks */,
@@ -103,9 +106,9 @@
 			);
 			dependencies = (
 			);
-			name = "iOS-AudioTest";
-			productName = "iOS-AudioTest";
-			productReference = 4DAB2CEA24B589E7003B79DE /* iOS-AudioTest.app */;
+			name = "iOS-Audio";
+			productName = "iOS-Audio";
+			productReference = 4DAB2CEA24B589E7003B79DE /* iOS-Audio.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -123,7 +126,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4DAB2CE524B589E7003B79DE /* Build configuration list for PBXProject "iOS-AudioTest" */;
+			buildConfigurationList = 4DAB2CE524B589E7003B79DE /* Build configuration list for PBXProject "iOS-Audio" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -136,7 +139,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4DAB2CE924B589E7003B79DE /* iOS-AudioTest */,
+				4DAB2CE924B589E7003B79DE /* iOS-Audio */,
 			);
 		};
 /* End PBXProject section */
@@ -151,6 +154,7 @@
 				4DAB2D0B24B5A3F4003B79DE /* output00.wav in Resources */,
 				4DAB2D0824B5A3F4003B79DE /* output01.wav in Resources */,
 				4DAB2CF524B589E7003B79DE /* Main.storyboard in Resources */,
+				4D289DDE24B83DEE00634CEA /* Default-568h@2x.png in Resources */,
 				4DAB2D0924B5A3F4003B79DE /* output02.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,13 +318,13 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
 				);
-				INFOPLIST_FILE = "iOS-AudioTest/Info.plist";
+				INFOPLIST_FILE = "iOS-Audio/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "-lc++";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.youkan.iOS-AudioTest";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.youkan.iOS-Audio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -337,13 +341,13 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Frameworks",
 				);
-				INFOPLIST_FILE = "iOS-AudioTest/Info.plist";
+				INFOPLIST_FILE = "iOS-Audio/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "-lc++";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.youkan.iOS-AudioTest";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.youkan.iOS-Audio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -353,7 +357,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4DAB2CE524B589E7003B79DE /* Build configuration list for PBXProject "iOS-AudioTest" */ = {
+		4DAB2CE524B589E7003B79DE /* Build configuration list for PBXProject "iOS-Audio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4DAB2CFC24B589EB003B79DE /* Debug */,
@@ -362,7 +366,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4DAB2CFE24B589EB003B79DE /* Build configuration list for PBXNativeTarget "iOS-AudioTest" */ = {
+		4DAB2CFE24B589EB003B79DE /* Build configuration list for PBXNativeTarget "iOS-Audio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4DAB2CFF24B589EB003B79DE /* Debug */,
